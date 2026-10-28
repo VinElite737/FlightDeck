@@ -717,7 +717,7 @@ input[type="date"], input[type="datetime-local"] { -webkit-appearance: none; app
 .listitem > div:first-child { min-width: 0; }
 #sideLicences .days { font-size: 11px; padding: 3px 7px; }
 @media (max-width: 700px) {
-  html, body { overflow-x: hidden; max-width: 100%; }
+  html, body { max-width: 100%; } und body { overflow-x: clip; }
   .app, .shell, .layout, .layout > div { min-width: 0; max-width: 100%; }
   /* Time zone: From + Add destination side by side */
   #time .fields { gap: 10px; }
